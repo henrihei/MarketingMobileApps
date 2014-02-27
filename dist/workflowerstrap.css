@@ -1,0 +1,167 @@
+body {
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'futura-pt';
+}
+
+a {
+  color: #DF8F00;
+}
+a:hover {
+  color: #fcb64a;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  padding: 1px 3px;
+  font-family: Inconsolata, monospace, sans-serif;
+  font-size: 0.85em;
+  white-space: pre;
+  border: 1px solid hsl(202, 40%, 92%);
+  background: hsl(195, 33%, 98%);
+  border-radius: 2px;
+  color: #000;
+}
+
+.navbar {
+  font-family: 'futura-pt';
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  /*background: #fcb64a;
+  background: #f8962a;
+  background-image: -webkit-linear-gradient(top right, #fcb64a, #f8962a);*/
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.btn {
+  font-family: 'futura-pt';
+  text-transform: uppercase;
+}
+
+.btn-default:hover {
+  background: #f8962a;
+  color: white;
+  border-color: rgba(0,0,0,.2);
+}
+
+.btn-primary {
+  color: #fcb64a;
+  background: #333333;
+  border-color: rgba(0,0,0,.2);
+}
+.btn-primary:hover {
+  background: #f8962a;
+  color: white;
+  border-color: rgba(0,0,0,.2);
+}
+
+.footer-jumbo {
+  padding: 30px 0;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.riskitasot th:first-child {
+  width: 15%;
+}
+.riskitasot th, .riskitasot td {
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.colorbox {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+  background: hsl(38, 100%, 20%);
+}
+
+.c2 {
+  background: hsl(38, 100%, 26%);
+}
+
+.c3 {
+  background: hsl(38, 100%, 32%);
+}
+
+.c4 {
+  background: hsl(38, 100%, 38%);
+}
+
+.c5 {
+  background: hsl(38, 100%, 44%);
+}
+
+.ABLeakContainer {
+  text-align: center;
+}
+.ABLeakContainer h3 {
+}
+.ABLeakContainer input {
+  margin: 0 5px;
+}
+.ABLeakContainer .result {
+  margin-top: 10px;
+}
+
+.summary-chart {
+  text-align: center;
+}
+
+.summary td {
+  text-align: right;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.stats {
+  font-weight: bold;
+  font-family: "futura-pt";
+  text-align: center;
+}
+.stats .no {
+  margin: 40px 0 0 0;
+  display: block;
+}
+.stats .type {
+  margin: 0;
+  display: block;
+}
+.stats .all .no {
+  margin-left: -15px;
+  font-size: 90px;
+  line-height: 70px;
+}
+.stats .all .type {
+  font-size: 30px;
+  line-height: 30px;
+}
+.stats .accounts .no {
+  font-size: 64px;
+  line-height: 50px;
+}
+.stats .accounts .type {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.stats .domains .no {
+  font-size: 75px;
+  line-height: 60px;
+}
+.stats .domains .type {
+  font-size: 18px;
+  line-height: 18px;
+}
