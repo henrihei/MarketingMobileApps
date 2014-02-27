@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    
+
     clean: ['dist'],
 
     ejs: {
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
     copy: {
       all: {
-        src: ['*.css', '*.html', 'images/**/*', 'img/**/*', '!Gruntfile.js'],
+        src: ['*.css', '*.html', 'bootstrap.min.js', 'images/**/*', 'img/**/*', '!Gruntfile.js'],
         dest: 'dist/',
       },
     },
@@ -71,9 +71,9 @@ module.exports = function(grunt) {
   });
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  
+
   grunt.registerTask('default', ['clean', 'ejs', 'browserify', 'copy']);
-  
+
   grunt.registerTask('server', ['default', 'connect', 'watch']);
 
   grunt.registerTask('deploy', ['default', 'gh-pages']);
