@@ -165,3 +165,27 @@ canvas {
   font-size: 18px;
   line-height: 18px;
 }
+
+.contents li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h2 a {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #DF8F00;
+}
+h2 a:hover {
+  text-decoration: none;
+  color: #DF8F00;
+}
+
+.social.big { display: block; margin-bottom: 30px;}
+.social img { width: 18px; height: 18px;}
+.social.big img { width: 32px; height: 32px;}
