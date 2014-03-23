@@ -165,3 +165,9 @@ canvas {
   font-size: 18px;
   line-height: 18px;
 }
+
+h2 {
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
